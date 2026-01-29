@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="img/nextit-logo.png" width="100" height="50"
+      /></a>
+      <a href="trip.html">대전근교 명소</a>
+      <a href="notice.html">공지사항</a>
+      <a href="faq.html">FAQ</a>
+      <a href="qna.html">문의게시판</a>
+      <a href="freeboard.html">자유게시판</a>
+      <a href="join.html">회원가입</a>
+    </header>
+    <hr />
+
+    <main>
+      <section>
+        <img src="img/ci_logo.png" width="100px" />
+
+        <p>실명 인증된 아이디로 가입</p>
+        <form>
+          <fieldset>
+            <label><input type="text" placeholder="아이디" /></label> <br />
+            <label><input type="password" placeholder="비밀번호" /></label
+            ><br />
+            <label
+              ><input
+                type="email"
+                placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)" /></label
+            ><br />
+          </fieldset>
+
+          <fieldset>
+            <label><input type="text" placeholder="이름" /></label> <br />
+            <label><input type="text" placeholder="생년월일 8자리" /></label
+            ><br />
+            <label
+              >통신사 선택
+              <select name="telecom">
+                <option value="KT" selected>KT</option>
+                <option value="SK">SK</option>
+                <option value="LG">LG</option>
+              </select></label
+            ><br />
+            <label
+              ><input type="radio" name="gender" value="male" checked />
+              남자</label
+            >
+            <label>
+              <input type="radio" name="gender" value="female" /> 여자
+            </label>
+
+            <label
+              ><input type="radio" name="country" value="in" checked />
+              내국인</label
+            >
+            <label>
+              <input type="radio" name="country" value="out" /> 외국인
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <label><input type="tel" placeholder="휴대전화번호" /></label>
+          </fieldset>
+
+          <fieldset>
+            <label>
+              <input type="checkbox" id="dongui" name="dongui" value="dongui" />
+              [필수]인증 약관 전체 동의
+            </label>
+            <br />
+          </fieldset>
+
+          <button>인증요청</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div><h2>오시는 길</h2></div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.403948437721!2d127.40784199999997!3d36.3267586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356549343eea9def%3A0xbce1e1d49463ebe8!2z64Sl7Iqk7Yq47JWE7J207Yuw6rWQ7Jyh7IS87YSw7ZWZ7JuQ!5e0!3m2!1sko!2skr!4v1758165224406!5m2!1sko!2skr"
+          width="400"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div>copyright@서지민 내가 만들었다</div>
+    </footer>
+  </body>
+</html>
